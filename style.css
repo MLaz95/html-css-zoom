@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: 15px; */
+    background-color: #222222;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 15px;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+nav .btn-label{
+    font-size: 12px;
+}
+
+nav .fa{
+    font-size: 30px;
+}
+
+nav .fa.fa-chevron-up{
+    font-size: 10px;
+}
+
+nav .fa.fa-share-square-o{
+    color: #4CC900;
+}
+
+.end{
+    color: red;
+    background-color: #4A4A4A;
+    padding: calc((82px - 18px) / 2);
+}
